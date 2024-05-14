@@ -1,1 +1,1 @@
-return { "L3MON4D3/LuaSnip", enabled = false }
+-- return { "L3MON4D3/LuaSnip", enabled = false }
