@@ -10,3 +10,6 @@ end
 
 map("n", "<c-,>", lazyterm, { desc = "Terminal (root dir)" })
 map("t", "<C-,/>", "<cmd>close<cr>", { desc = "Hide Terminal" })
+
+local notify = require("notify")
+map("n", "<leader>n", notify.dismiss, { desc = "Dismiss Notification" })
